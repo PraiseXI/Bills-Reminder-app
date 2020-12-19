@@ -1,0 +1,13 @@
+C:\Users\prais\Documents\Programming\Personal Projects\Bills Reminder app\bin\Debug\netcoreapp3.1\Bills Reminder app.exe
+C:\Users\prais\Documents\Programming\Personal Projects\Bills Reminder app\bin\Debug\netcoreapp3.1\Bills Reminder app.deps.json
+C:\Users\prais\Documents\Programming\Personal Projects\Bills Reminder app\bin\Debug\netcoreapp3.1\Bills Reminder app.runtimeconfig.json
+C:\Users\prais\Documents\Programming\Personal Projects\Bills Reminder app\bin\Debug\netcoreapp3.1\Bills Reminder app.runtimeconfig.dev.json
+C:\Users\prais\Documents\Programming\Personal Projects\Bills Reminder app\bin\Debug\netcoreapp3.1\Bills Reminder app.dll
+C:\Users\prais\Documents\Programming\Personal Projects\Bills Reminder app\bin\Debug\netcoreapp3.1\Bills Reminder app.pdb
+C:\Users\prais\Documents\Programming\Personal Projects\Bills Reminder app\obj\Debug\netcoreapp3.1\Bills Reminder app.csprojAssemblyReference.cache
+C:\Users\prais\Documents\Programming\Personal Projects\Bills Reminder app\obj\Debug\netcoreapp3.1\Bills Reminder app.AssemblyInfoInputs.cache
+C:\Users\prais\Documents\Programming\Personal Projects\Bills Reminder app\obj\Debug\netcoreapp3.1\Bills Reminder app.AssemblyInfo.cs
+C:\Users\prais\Documents\Programming\Personal Projects\Bills Reminder app\obj\Debug\netcoreapp3.1\Bills Reminder app.csproj.CoreCompileInputs.cache
+C:\Users\prais\Documents\Programming\Personal Projects\Bills Reminder app\obj\Debug\netcoreapp3.1\Bills Reminder app.dll
+C:\Users\prais\Documents\Programming\Personal Projects\Bills Reminder app\obj\Debug\netcoreapp3.1\Bills Reminder app.pdb
+C:\Users\prais\Documents\Programming\Personal Projects\Bills Reminder app\obj\Debug\netcoreapp3.1\Bills Reminder app.genruntimeconfig.cache

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dbu8ClcTIw16qo0qktWyhQsahCWFHW5ip64uh5CqrB+Fqysbcsxtmsep9TJ308bf3kofqqPjKgmBCsLJ7vl1Tw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\prais\\Documents\\Programming\\Personal Projects\\Bills Reminder app\\Bills Reminder app.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\prais\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\prais\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}
