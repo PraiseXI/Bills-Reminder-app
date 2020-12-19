@@ -11,3 +11,4 @@
 # What I am using
 * Object-Oriented approach: classes, methods.
 * External data storage.
+* Serialization
