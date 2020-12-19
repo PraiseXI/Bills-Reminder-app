@@ -1,6 +1,7 @@
 # Bills-Reminder-App
 > Praise Olawuni
 >> I am currently working on building an application that reminds the user of the currect bills that they have.
+>> The main code is in the 'Program.cs' file.
 
 # Additional Notes
 * I want it to be able to store all of the dtata on each bill and correctly output the closest upcoming bill that they have, with all the information about it.
