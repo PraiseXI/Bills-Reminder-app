@@ -16,8 +16,7 @@ namespace Bills_Reminder_app
         }
         static void Main(string[] rgs)
         {
-            //billInputQuestions();
-            Console.WriteLine("Hello wORLD");
+            billInputQuestions();
         }
     }
 }
