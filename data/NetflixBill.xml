@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Bill xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BillNo>1</BillNo>
+  <Title>Netflix Premium</Title>
+  <Cost>15.99</Cost>
+  <Next_Due>11/11/2000</Next_Due>
+  <Days_until_next>50</Days_until_next>
+  <How_often>28</How_often>
+  <Amount_left>N/A</Amount_left>
+  <Company_name>Netflix</Company_name>
+</Bill>
