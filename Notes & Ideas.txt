@@ -1,0 +1,1 @@
+Make a chrome extension for this - has an interface and detects when you have subscibed to a new one 

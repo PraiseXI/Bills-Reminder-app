@@ -10,24 +10,24 @@ namespace Bills_Reminder_app
         public int BillNo { get; set; }
         public string Title { get; set; }
         public Double Cost { get; set; }
-        public DateTime Next_Due { get; set; }
+        public string Next_Due { get; set; } //had troubling passing a DateTime as argument so will parse to string at very last stage after all the error checks etc.
         public int Days_until_next { get; set; } //will subtract the date due from todays date
         public int How_often { get; set; } //not to display, for me to set reminder frequency
-        public double Amount_left { get; set; }
+        public string Amount_left { get; set; } //it will be a string as it can also be a string if it there is no total amount (e.g recurring subscription
         public string Company_name { get; set; }
 
         public Bill() { }
 
-        public Bill(int billno = 0, string title = "No Title", double cost = 0, DateTime? nextDue = null, int days_until_next = 0, int how_often = 0, double amount_left = 0, string company_name = "no name")
+        public Bill(int billno = 0, string title = "No Title", double cost = 0, string nextDue = "31/01/2021", int days_until_next = 0, int how_often = 0, string amount_left = "N/A", string company_name = "no name")
         {
-            billno = BillNo;
-            title = Title;
-            cost = Cost;
-            nextDue = Next_Due;
-            days_until_next = Days_until_next;
-            how_often = How_often;
-            amount_left = Amount_left;
-            company_name = Company_name;
+            BillNo = billno;
+            Title = title;
+            Cost = cost;
+            Next_Due = nextDue;
+            Days_until_next = days_until_next;
+            How_often = how_often;
+            Amount_left = amount_left;
+            Company_name = company_name;
         }
 
         public override string ToString()
@@ -46,16 +46,15 @@ namespace Bills_Reminder_app
             info.AddValue("AmountLeft", Amount_left);
             info.AddValue("CompanyName", Company_name);
         }
-
         public Bill(SerializationInfo info, StreamingContext context)
         {
             BillNo = (int)info.GetValue("BillNo", typeof(int));
             Title = (string)info.GetValue("Title", typeof(string));
             Cost = (double)info.GetValue("Cost", typeof(double));
-            Next_Due = (DateTime)info.GetValue("NextDue", typeof(DateTime));
+            Next_Due = (string)info.GetValue("NextDue", typeof(string));
             Days_until_next = (int)info.GetValue("DaysUntilNext", typeof(int));
             How_often = (int)info.GetValue("HowOften", typeof(int));
-            Amount_left = (double)info.GetValue("AmountLeft", typeof(double));
+            Amount_left = (string)info.GetValue("AmountLeft", typeof(string));
             Company_name = (string)info.GetValue("CompanyName", typeof(string));
         }
     }
