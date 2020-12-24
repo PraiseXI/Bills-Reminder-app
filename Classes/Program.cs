@@ -47,7 +47,7 @@ namespace Bills_Reminder_app
 
             XmlSerializer serializer = new XmlSerializer(typeof(Bill));
 
-            using (TextWriter tw = new StreamWriter(@"C:\Users\prais\Documents\Programming\Personal Projects\Bills Reminder app\data"))
+            using (TextWriter tw = new StreamWriter(@"C:\Users\prais\Documents\Programming\Personal Projects\Bills Reminder app\data\NetflixBill.xml"))
             {
                 serializer.Serialize(tw, Netflix);
             }
@@ -55,7 +55,7 @@ namespace Bills_Reminder_app
 
             XmlSerializer deserializer = new XmlSerializer(typeof(Bill));
 
-            TextReader reader = new StreamReader(@"C:\Users\prais\Documents\Programming\Personal Projects\Bills Reminder app\data");
+            TextReader reader = new StreamReader(@"C:\Users\prais\Documents\Programming\Personal Projects\Bills Reminder app\data\NetflixBill.xml");
             object obj = deserializer.Deserialize(reader);
             Netflix = (Bill)obj;
             reader.Close();
