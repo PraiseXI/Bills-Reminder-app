@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ArrayOfBill xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Bill>
+    <BillNo>1</BillNo>
+    <Title>Phone Bill</Title>
+    <Cost>10</Cost>
+    <Next_Due>05/02/2021</Next_Due>
+    <Days_until_next>16</Days_until_next>
+    <How_often>31</How_often>
+    <Amount_left>N/A</Amount_left>
+    <Company_name>VOXI</Company_name>
+  </Bill>
+  <Bill>
+    <BillNo>2</BillNo>
+    <Title>Netflix Subscription</Title>
+    <Cost>2</Cost>
+    <Next_Due>14/02/2021</Next_Due>
+    <Days_until_next>25</Days_until_next>
+    <How_often>31</How_often>
+    <Amount_left>N/A</Amount_left>
+    <Company_name>Netflix</Company_name>
+  </Bill>
+  <Bill>
+    <BillNo>3</BillNo>
+    <Title>Spotify Subscription</Title>
+    <Cost>3</Cost>
+    <Next_Due>27/01/2021</Next_Due>
+    <Days_until_next>7</Days_until_next>
+    <How_often>31</How_often>
+    <Amount_left>N/A</Amount_left>
+    <Company_name>Spotify</Company_name>
+  </Bill>
+</ArrayOfBill>
